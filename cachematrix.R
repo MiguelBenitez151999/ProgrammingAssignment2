@@ -4,7 +4,7 @@
 ## I set "test" as the matrix
 
 MakeCacheMatrix <- function (test=matrix()){
-        invtest<-NULL
+        invtest<-NULL  #invtest represents Null
         set<- function(z){
                 test <<- z
                 invtest<- NULL         #invtest input represents the "Null"           
@@ -29,5 +29,5 @@ CacheSolve<- function (test,...) {
 }        
                 
 
-        ## Return a matrix that is the inverse of 'x'
+     
 
